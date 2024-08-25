@@ -429,7 +429,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8730095826981806557}
   toggleTransition: 1
   graphic: {fileID: 0}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 4698673868273724082}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -612,7 +612,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8122080790654048826}
   toggleTransition: 1
   graphic: {fileID: 0}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 4698673868273724082}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -870,7 +870,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6400229637238184475}
   toggleTransition: 1
   graphic: {fileID: 0}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 4698673868273724082}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
