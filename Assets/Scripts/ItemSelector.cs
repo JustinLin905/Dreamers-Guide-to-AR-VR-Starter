@@ -34,5 +34,7 @@ public class ItemSelector : MonoBehaviour
 
         AudioSource audio = GetComponent<AudioSource>();
         audio.Play();
+
+        ShoppingCart.Instance.PushToCart(activeItem);
     }
 }
