@@ -28,4 +28,11 @@ public class ItemSelector : MonoBehaviour
         items[index].SetActive(true);
         activeItem = index;
     }
+
+    public void AddToCart() {
+        Debug.Log("Added item " + activeItem + " to cart");
+
+        AudioSource audio = GetComponent<AudioSource>();
+        audio.Play();
+    }
 }
