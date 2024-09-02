@@ -899,6 +899,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4200674581053104779}
+  - component: {fileID: 2041976063933883041}
   - component: {fileID: 3671612296546985364}
   - component: {fileID: 6269003388564347113}
   - component: {fileID: 8462625103623581297}
@@ -927,6 +928,21 @@ Transform:
   - {fileID: 7986825708556108860}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2041976063933883041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6681844165881600576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1331bbc7f6f297841ae1e1e476cee3fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cartItemPrefab: {fileID: 7462723098355527534}
+  scrollViewContent: {fileID: 4523926102263452506}
+  walletAmount: {fileID: 8138343583545441942}
 --- !u!114 &3671612296546985364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1562,6 +1578,11 @@ PrefabInstance:
 --- !u!224 &871352236824216642 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4986358890983710174, guid: 097be85b467cbf24eb6951985e72ff47, type: 3}
+  m_PrefabInstance: {fileID: 5270531803509660060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7462723098355527534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3365415831986173682, guid: 097be85b467cbf24eb6951985e72ff47, type: 3}
   m_PrefabInstance: {fileID: 5270531803509660060}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5453410558256271334
