@@ -4,21 +4,35 @@ using UnityEngine;
 
 public class ItemSelector : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject[] items;
-    private int activeItem;
+    // Index is Item ID
+    [SerializeField] private GameObject[] items;
 
-    // Start is called before the first frame update
+    int activeItem;
+
     void Start()
-    {
+    {        
+        // Deactivate all items
         foreach (GameObject item in items)
         {
             item.SetActive(false);
         }
 
+        // Activate the first item
         activeItem = 0;
         items[activeItem].SetActive(true);
     }
 
-    // Your code here
+    public void ToggleItem(int index)
+    {
+        items[activeItem].SetActive(false);
+        items[index].SetActive(true);
+        activeItem = index;
+    }
+
+    public void AddToCart() {
+        AudioSource audio = GetComponent<AudioSource>();
+        audio.Play();
+
+        ShoppingCart.Instance.PushToCart(activeItem);
+    }
 }
